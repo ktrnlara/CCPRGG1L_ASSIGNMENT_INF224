@@ -3,29 +3,28 @@ public class Assignment2 {
 
 //Use a while loop to print your FIRSTNAME three times.
 // while loop
-    int count = 0;
 
-    while (count !=3){
+    int count1 = 0;
+
+    while (count1 !=3){
     System.out.println("MA. KATRINA");
-
-    count ++;
+    count1 ++;
     }
         
 //Use a do-while loop to print your MIDDLENAME four times.
 // do while loop
 
-    int i = 0;
+    int count2 = 0;
 
     do {
-    System.out.println("PEDRIALVA");
-
-    i ++;
-    } while (i != 4);
+        System.out.println("PEDRIALVA");
+        count2 ++;
+    } while (count2 != 4);
 	
 //Use a for loop to print your SURNAME five times.
 //for loop
 
-    for (int l = 0; l != 5;  l++) {
+    for (int count3 = 0; count3  != 5;  count3 ++) {
     System.out.println("LARA");
 
     }
@@ -33,24 +32,23 @@ public class Assignment2 {
 //Create a char array that consists all of the characters of your FIRSTNAME and use a for loop to print each character of your FIRSTNAME. (example: ELIZER)
 // char array
         
-    String[] myFirstName = {"M","A","K","A","T","R","I","N","A"};
+    char [] myFirstName = {'M', 'A', 'K', 'A', 'T', 'R', 'I', 'N', 'A'};
 
-    for (int counter = 0; counter < myFirstName.length; counter++) {
-    System.out.println(myFirstName[counter]);
+    // MA KATRINA
 
+    for (int i = 0; i < myFirstName.length; i++){
+    System.out.println(myFirstName[i]);
     }
 	
 //Use a for loop to print the char array of your FIRSTNAME in REVERSE order (example: REZILE)
 // char array in reverse
-        
-    String[] myfirstname = {"A","N","I","R","T","A","K","A","M"};
 
-    for (int l = 0; l < myFirstName.length; l++) {
-    System.out.println(myfirstname[l]);
+    // ANIRTAK AM
     
-}
+    for (int i = myFirstName.length - 1; i >= 0; i--) {
+    System.out.println(myFirstName[i]);
+
+    
+        }
     }
 }
-	
-
-
