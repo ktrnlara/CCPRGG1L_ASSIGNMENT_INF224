@@ -10,7 +10,7 @@ public class Exercise {
 
             // PREY
             for (int columns = 0; columns < 4; columns++) {
-                //PREY
+                
                 if (rows==0){
                     System.out.print(mdArray[rows][columns]);
                 }
@@ -30,7 +30,7 @@ public class Exercise {
 
             // inner loop
             for (int columns = 0; columns < 4; columns++) {
-              // LAVA
+              
               if (rows==1){
                 System.out.print(mdArray[rows][columns]);
               }
@@ -50,7 +50,7 @@ public class Exercise {
 
             // inner loop
             for (int columns = 0; columns < 4; columns++) {
-              // OVER
+              
               if (rows==2){
                 System.out.print(mdArray[rows][columns]);
               }
@@ -70,7 +70,7 @@ public class Exercise {
 
             // inner loop
             for (int columns = 0; columns < 4; columns++) {
-              // tend
+              
               if (rows!=3){
                 System.out.print(" ");
                 
@@ -91,7 +91,7 @@ public class Exercise {
 
             // inner loop
             for (int columns = 0; columns < 4; columns++) {
-              // PLOT
+
               if (columns!=0){
                 System.out.print(" ");
               }
@@ -111,7 +111,7 @@ public class Exercise {
 
             // inner loop
             for (int columns = 0; columns < 4; columns++) {
-              // RAVE
+
               if (columns!=1){
                 System.out.print(" ");
               }
@@ -131,7 +131,7 @@ public class Exercise {
 
             // inner loop
             for (int columns = 0; columns < 4; columns++) {
-              // EVEN
+
               if (columns!=2){
                 System.out.print(" ");
               }
@@ -151,7 +151,7 @@ public class Exercise {
 
           // inner loop
           for (int columns = 0; columns < 4; columns++) {
-            // YARD
+
             if (columns!=3){
               System.out.print(" ");
             }
@@ -170,7 +170,7 @@ public class Exercise {
 
           // inner loop
           for (int columns = 0; columns < 4; columns++) {
-            // number 9
+
             if ( rows == 1 &&(columns==1||columns==2)){
               System.out.print(" ");
             }
@@ -192,7 +192,7 @@ public class Exercise {
   
             // inner loop
             for (int columns = 0; columns < 4; columns++) {
-              // number 9
+
               if ( rows == 0 &&(columns==1||columns==2)){
                 System.out.print(" ");
               }
